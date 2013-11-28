@@ -46,6 +46,8 @@ You can also develop with live-reload and grunt-watch if that's your thing:
     npm install
     grunt develop
 
+
+## License
 Copyright &copy; 2012 [Rebecca Murphey](https://github.com/rmurphey/js-assessment).
 
 This work is licensed under the [Creative Commons Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
