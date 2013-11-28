@@ -1,4 +1,15 @@
-# A test-driven JS assessment
+<pre>
+                          ,------.        ,--.       ,--.
+                          |  .--. ',---.,-'  '-.,---.|  ,--. ,--.
+                          |  '--'.| .-. '-.  .-(  .-'|  |\  '  /
+                          |  |\  \\   --. |  | .-'  `|  | \   '
+                          `--' '--'`----' `--' `----'`--.-'  /
+                            Make Real Estate Apps in    `---'
+                               Minutes Not Months
+
+</pre>
+
+# A test-driven JS interview
 
 This repo includes a set of tests that can be used to assess the skills of
 a candidate for a JavaScript position, or to improve one's own skills.
@@ -7,9 +18,6 @@ a candidate for a JavaScript position, or to improve one's own skills.
 To use the tests, you will need to install Node -- you can do this via the
 [download page](http://nodejs.org/#download) or using
 [Homebrew](http://mxcl.github.com/homebrew/) if you are on a Mac.
-
-Note that on Windows, there are some reports that you will need to restart
-after installing Node - see #12.
 
 You can clone or download this repo. Once you have done so, from the root
 directory of the repo, run:
@@ -38,61 +46,7 @@ You can also develop with live-reload and grunt-watch if that's your thing:
     npm install
     grunt develop
 
-## I need help!
-
-There may be friendly folks willing to help you in \#js-assessment or
-\#jshotline on freenode IRC.
-
-## I want to contribute tests; what do I do?
-
-Submit a pull request! The tests are currently loosely organized by topic, so
-you should do your best to add tests to the appropriate file in `tests/app`, or
-create a new file there if you don't see an appropriate one. If you do create
-a new file, make sure to add it to `tests/runner.js`, and to add a stub for the
-solution to the corresponding file in `app/`. Finally, it would be great if you
-could update the [answers](https://github.com/rmurphey/js-assessment-answers)
-as well.
-
-Any substantial contributions will be duly credited in the readme, as well as
-of course in the git commit log.
-
-### Data-driven tests
-
-If your tests need data that can be fetched via XHR, stick a `.json` file in
-the `data` directory; you can access it at `/data/<filename>.json`.
-
-### Available dependencies
-
-The repo includes jQuery, Backbone, Underscore, and RequireJS. If there's other
-stuff you'd find useful, you can put it in the `lib` directory.
-
-## I want to see the answers!
-
-First, bear in mind that looking up the answers is going to teach you a whole
-lot less than you'll learn by working on the tests, even if you occasionally get
-stuck. I'd recommend only looking at the answers once you have the tests
-passing, to see if there's another way you could have approached the
-problem. When you're ready to look at the answers, you can find them
-[here](https://github.com/rmurphey/js-assessment-answers); I'll do my best to
-keep them up to date.
-
-## I hate \<some technology you've chosen\>
-
-This repo uses [RequireJS](http://requirejs.org) for dependency management and
-[Mocha](http://visionmedia.github.com/mocha/) and [expect.js](https://github.com/LearnBoost/expect.js/blob/master/README.md)
-for the tests themselves. It uses the BDD style for authoring tests. If this
-doesn't suit you, please fork away, or, better, submit a pull request that lets
-this be more flexible than it currently is.
-
-# Todos
-
-There are a number of things that would make this project better; check out the
-[issues](https://github.com/rmurphey/js-assessment/issues) for details, pull
-requests welcome!
-
-# License
-
-Copyright &copy; 2012 Rebecca Murphey.
+Copyright &copy; 2012 [Rebecca Murphey](https://github.com/rmurphey/js-assessment).
 
 This work is licensed under the [Creative Commons Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 license. You are free to share and remix the work, and to use it for commercial
