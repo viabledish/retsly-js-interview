@@ -34,12 +34,6 @@ files in the `tests/app` directory, and edit the files in the `app/` directory.
 Once you update a test, you can reload the test page in the browser to see
 whether it worked.
 
-You can also run (most of) the tests on the command line:
-
-    npm test
-
-The command line runner is a work in progress; contributions welcome :)
-
 You can also develop with live-reload and grunt-watch if that's your thing:
 
     npm install -g grunt-cli
